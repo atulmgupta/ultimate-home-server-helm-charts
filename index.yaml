@@ -3,11 +3,11 @@ entries:
   ombi:
   - apiVersion: v2
     appVersion: "3.0"
-    created: "2024-06-13T16:38:36.718435297-07:00"
+    created: "2024-06-13T16:54:10.868763647-07:00"
     description: A Helm chart for deploying Ombi using Docker
     digest: 57fa72ddb679938cfff4ce68da24bd3780ee51f2762e1f78302503ca4904f15c
     name: ombi
     urls:
-    - https://atulmgupta.github.io/ultimate-home-server-helm-charts/ombi/ombi-0.1.0.tgz
+    - ombi/ombi-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-13T16:38:36.718115089-07:00"
+generated: "2024-06-13T16:54:10.868355035-07:00"
