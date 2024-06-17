@@ -22,7 +22,7 @@ jobs:
           charts_dir: ./charts
           release_branch: main
         env:
-          CR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CR_TOKEN: ${{ secrets.access_token }}
 
       - name: Update index.yaml
         run: |
@@ -40,5 +40,5 @@ jobs:
       - name: Push changes to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.access_token }}
           publish_dir: ./docs
