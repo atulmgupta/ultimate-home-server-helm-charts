@@ -27,7 +27,11 @@ jobs:
       - name: Update index.yaml
         run: |
           mkdir -p docs
-          cp -r .cr-release-packages/* docs/
+          if [ -d .cr-release-packages ]; then
+            cp -r .cr-release-packages/* docs/
+          else
+            echo "No release packages found in .cr-release-packages"
+          fi
           if [ -f index.yaml ]; then
             cp index.yaml docs/
           fi
