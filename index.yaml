@@ -3,7 +3,17 @@ entries:
   ddns-updater:
   - apiVersion: v2
     appVersion: 2.7.1
-    created: "2024-06-17T21:44:15.181889616-07:00"
+    created: "2024-06-17T22:58:51.40524363-07:00"
+    description: A Helm chart for the DDNS Updater
+    digest: fed9352f976c390646cdfab312948700b57a1533c597d5d790ec47833e15caac
+    name: ddns-updater
+    type: application
+    urls:
+    - https://atulmgupta.github.io/ultimate-home-server-helm-charts/ddns_updater/ddns-updater-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 2.7.1
+    created: "2024-06-17T22:58:51.405012326-07:00"
     description: A Helm chart for the DDNS Updater
     digest: 3939e3ca409d700810785b883a9166bb50b9eca493166020ed395c9724e5f729
     name: ddns-updater
@@ -14,7 +24,7 @@ entries:
   ombi:
   - apiVersion: v2
     appVersion: "3.0"
-    created: "2024-06-17T21:44:15.182485938-07:00"
+    created: "2024-06-17T22:58:51.405752539-07:00"
     description: A Helm chart for deploying Ombi using Docker
     digest: 57fa72ddb679938cfff4ce68da24bd3780ee51f2762e1f78302503ca4904f15c
     name: ombi
@@ -24,7 +34,7 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: latest
-    created: "2024-06-17T21:44:15.188225548-07:00"
+    created: "2024-06-17T22:58:51.409828908-07:00"
     description: A Helm chart for Redis
     digest: 379e8e8e967ac0cdea8cf6fb35490fd1172738b7769cc395292fafc1406ca356
     name: redis
@@ -34,7 +44,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: latest
-    created: "2024-06-17T21:44:15.187757631-07:00"
+    created: "2024-06-17T22:58:51.409330899-07:00"
     description: A Helm chart for Redis
     digest: 1fd92b9490a6e4fcca3bb647f929023ca78473ff7e22917b2ef8dda6930e2f5c
     name: redis
@@ -44,7 +54,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: latest
-    created: "2024-06-17T21:44:15.187201511-07:00"
+    created: "2024-06-17T22:58:51.40879719-07:00"
     description: A Helm chart for Redis
     digest: ebde13067e89c49cc8b691ca4af1c69ae2f34f1000f95eba5d90f768197c4105
     name: redis
@@ -54,7 +64,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: latest
-    created: "2024-06-17T21:44:15.186722493-07:00"
+    created: "2024-06-17T22:58:51.408308482-07:00"
     description: A Helm chart for Redis
     digest: bc3dd5811ada1566d0a0a31c1e5c29748a0c9d157bb11e6379fc49d1aaac5b2f
     name: redis
@@ -64,7 +74,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: latest
-    created: "2024-06-17T21:44:15.186273977-07:00"
+    created: "2024-06-17T22:58:51.407823874-07:00"
     description: A Helm chart for Redis
     digest: a38bb46b9959f2e255c7f18ea425c5a0304c5a7fbff555a5e80a7a8a711f46f5
     name: redis
@@ -74,7 +84,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: latest
-    created: "2024-06-17T21:44:15.185772759-07:00"
+    created: "2024-06-17T22:58:51.407329766-07:00"
     description: A Helm chart for Redis
     digest: b556f1013ca8a02f8c36e51bc5111468ca8c35bd2af6bbfce70582be7a79c455
     name: redis
@@ -84,7 +94,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: latest
-    created: "2024-06-17T21:44:15.18525384-07:00"
+    created: "2024-06-17T22:58:51.406824957-07:00"
     description: A Helm chart for Redis
     digest: 27da04476fcc4a08afc4b6f570bf014bff998fa509ff264682747c99cb90204f
     name: redis
@@ -94,7 +104,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: latest
-    created: "2024-06-17T21:44:15.182986656-07:00"
+    created: "2024-06-17T22:58:51.406269948-07:00"
     description: A Helm chart for Redis
     digest: f4a7693bb5c9426cb01e9845c6ad2273e4300daaa8e809463fedf63d0c7f54d1
     name: redis
@@ -102,4 +112,4 @@ entries:
     urls:
     - https://atulmgupta.github.io/ultimate-home-server-helm-charts/redis/redis-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-17T21:44:15.181485101-07:00"
+generated: "2024-06-17T22:58:51.404182712-07:00"
