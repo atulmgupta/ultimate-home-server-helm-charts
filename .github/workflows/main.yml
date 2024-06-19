@@ -17,10 +17,11 @@ jobs:
         uses: azure/setup-helm@v1
 
       - name: Run chart-releaser
+        id: cr
         uses: helm/chart-releaser-action@v1.6.0
         with:
           charts_dir: ./charts
-          release_branch: gh_pages
+          release_branch: gh-pages
         env:
           CR_TOKEN: ${{ secrets.access_token }}
 
@@ -32,10 +33,11 @@ jobs:
           else
             echo "No release packages found in .cr-release-packages"
           fi
-          if [ -f index.yaml ]; then
-            cp index.yaml docs/
+          if [ -f docs/index.yaml ]; then
+            helm repo index docs --url https://atulmgupta.github.io/ultimate-home-server-helm-charts --merge docs/index.yaml
+          else
+            helm repo index docs --url https://atulmgupta.github.io/ultimate-home-server-helm-charts
           fi
-          helm repo index docs --url https://atulmgupta.github.io/ultimate-home-server-helm-charts --merge docs/index.yaml
           
       - name: Push changes to gh-pages
         uses: peaceiris/actions-gh-pages@v3
